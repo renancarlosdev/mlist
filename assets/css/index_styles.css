@@ -1,0 +1,226 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/09/2016, 15:59:39
+    Author     : Renan
+*/
+body{    
+  font-family: 'Amatic SC', cursive;
+  background-image: url(http://images.freeimages.com/images/previews/eb8/grunge-photos-grey-1142280.jpg);
+}
+
+.all-mangas{  
+    background-color: rgba(125, 123, 123, 0.25);
+    border-radius: 100px;
+    float: right;
+    margin-top: 20px;
+
+}
+
+ul.menu-manga{  
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #000000;
+}
+
+.menu-manga a{
+  color: white;
+}
+
+.banner{
+  margin-bottom: 20px;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #000000;
+}
+
+.inf-block{
+  float:right;
+  width:80px;
+  margin-right: 20px;
+}
+
+.manga-block {
+  height: 360px;
+  margin-top:20px;
+}
+
+.manga-block h1{
+  text-align: center;
+  margin:0;
+}
+
+.img-center {
+  margin: 0 auto;
+  width:200px;
+  height:200px;
+}
+
+
+.box-episodio{  
+  float: left;
+  padding: 0 0px;
+  margin: 20px 20px 10px;
+  background-color: #efefef;
+  height:240px;
+  border-radius: 20px 20px 20px 20px;
+  border: solid 1px;
+  overflow: hidden;
+}
+
+.mBox{
+    padding:0px;
+    margin-top:10px;
+    height:250px;
+    border-radius:20px;
+    border: solid 1px;
+    overflow: hidden;
+    -webkit-transform:translateZ(0);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px #fffefe;
+    }
+    .mBox:hover{
+     background-color: #CAEBF2;
+     opacity: 0.5; 
+    
+    }
+    
+    .bck{
+    
+    background-repeat: no-repeat;
+     background-size: 100% 100%;
+     width:100%;
+     height:255px;
+    opacity: 0.5; position:absolute; overflow: hidden;
+    }
+    
+    .abs{
+position:absolute;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.mBoxHead{
+    padding:0px;
+text-align:right;
+ }
+.boxImage{
+    margin-top:0px;
+    padding:0px;
+    height:170px;                   
+}
+.image{
+    margin:0px;
+    max-width:100%;
+    max-height:100%; 
+    overflow:hidden;                   
+      }
+.chapterNumber{
+    font-size:50px;  
+    margin-bottom:0px;  
+    padding-left: 20px;                                      
+}
+.pageNumber{
+    font-size:22px;    
+    float:right;                               
+}
+.mangaName{
+    font-size:35px;  
+    margin-bottom:0px;
+    word-break: break-all;
+    position: absolute;
+    bottom:0;
+    text-align:center;
+    max-height: 100px;
+ }	
+
+.mBoxName{
+
+    flex-grow: 1;	
+    text-align:center;
+}
+
+.navbar{
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.navbar-nav{  
+    float: none;
+    display: inline-block;
+}
+
+#mainNav{  
+  transition: transform 1s;
+}
+
+.sticky{
+  transform:scale(0,1);
+}
+
+
+
+ .top-image{
+  left: 50%;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: -100px;
+  transition: all 1s;  
+}
+
+.left{
+  float: left;
+  border-right: 30px solid purple;
+  border-top: 52px solid transparent;
+  border-bottom: 42px solid transparent;
+  transition: all 1s;
+}
+
+.mid{
+  float: left;
+  width: 140px;
+  height: 104px;
+  background-color: purple;
+  transition: all 1s;
+}
+
+.right {
+  float: left;
+  border-left: 30px solid purple;
+  border-top: 52px solid transparent;
+  border-bottom: 42px solid transparent;
+  transition: all 1s;
+}
+
+#mainNav a:hover{
+  background-color: transparent;  
+}
+
+#mainNav a{
+  color: black;  
+}
+
+
+.top-image-right{  
+  border-left: 20px solid purple;  
+  border-bottom: 22px solid transparent;
+}
+
+.top-image-left{  
+  border-right: 20px solid purple;  
+  border-bottom: 22px solid transparent;
+}
+
+.top-image-mid{  
+  width:20px;
+  height: 80px;
+  border-radius:5px;
+}
+
+.top-image-main{  
+  margin-left:-30px;
+
+}
