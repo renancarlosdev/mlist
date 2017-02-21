@@ -2,7 +2,7 @@
 O que é o Mlist
 ###################
 
-É uma aplicação que em integração com o scriptM(desenvolvido em java para leitura do historico do browser) controla o fluxo de mangas lidos pelo usuário, atualizando o ultimo capitulo e página lidos. Esta aplicação também verifica os ultimos capitulos lançados
+É uma aplicação, que em integração com o scriptM(desenvolvido em java para leitura do historico do browser), controla o fluxo de mangas lidos pelo usuário, atualizando o ultimo capitulo e página lidos. Esta aplicação também verifica os ultimos capitulos lançados
 
 ###################
 Sobre a origem
@@ -15,6 +15,9 @@ Desenvolvimento(BETA) e proximos passos
 ###################
 
 -As Views responsáveis pelo CRUD ainda necessitam de um layout.
+
 -Implementação de divisão por usuário(Atualmente o sistema só possibilita um usuário)
+
 -Implementação de ultimos acontecimentos(Mostrando aleatoriamente algumas páginas dos ultimos capitulos lidos)
+
 -Coluna na home com os ultimos capitulos lançados
