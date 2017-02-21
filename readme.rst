@@ -21,3 +21,9 @@ Desenvolvimento(BETA) e proximos passos
 -Implementação de ultimos acontecimentos(Mostrando aleatoriamente algumas páginas dos ultimos capitulos lidos)
 
 -Coluna na home com os ultimos capitulos lançados
+
+
+
+#OBS
+
+Necessário configurar o config/database para o uso.
