@@ -1,3 +1,9 @@
+License Mlist:
+
+Copyright (c) 2017, Renan Carlos Giaquinto Rosa. All rights reserved
+
+License Codeigniter:
+
 The MIT License (MIT)
 
 Copyright (c) 2014 - 2016, British Columbia Institute of Technology
